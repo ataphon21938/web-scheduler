@@ -37,22 +37,25 @@
   <body>
     <form action="user2.php" method="POST">
     <header>
-        <img src="images/FIBO_logo.jpg" width="55" height="62" style="margin-top: 10px; margin-left: 10px">
-        <div style="font-size: 1.8em; margin-top: -50px; margin-left: 80px">
-        <b>Classroom Schedule</b>
-        </div><br>
-        </header>
-        <div style="margin-top: -30px; margin-left: 500px">
-            <a href="#" class="btn1"><b>Profile</b></a>
-            <a href="user2.php" class="btn1" style=" color: #79a2ff"><b>Inconvenient time</b></a>
-            <a href="user3.php" class="btn1"><b>Classroom</b></a>
-            <a href="user4.php" class="btn1"><b>Schedule</b></a>   
-        </div>
-        <div style="margin-top: -84px; margin-left: 1200px">
-            <a href="index.php" class="btn"><b>Log out</b></a>
-        </div>
-        <div style="margin-top: 50px;">
-            <br><b class="topics">Inconvenient Time</b><br><br>
+    <img src="images/FIBO_logo.jpg" width="55" height="62" style="margin-top: 10px; margin-left: 10px">
+    <div style="font-size: 1.8em; margin-top: -50px; margin-left: 80px">
+    <b>Classroom Schedule</b>
+    </div><br><br>
+    </header>
+    <form action="admin2.php" method="post">
+    <div style="margin-top: -94px; margin-left:87.7%">
+    <a href="index.php" class="btn"><b>?</b></a>
+    <a href="index.php" class="btn"><b>Log out</b></a>
+</div>
+<div style="margin-top: 20px; margin-left:60.3%">
+    <a href="user1.php" class="btn1"><b>Profile</b></a>
+    <a href="user2.php" class="btn1" style=" color: #79a2ff"><b>Inconvenient Time</b></a>
+    <a href="user3.php" class="btn1"><b>Classroom</b></a>
+    <a href="user4.php" class="btn1"><b>Schedule</b></a>
+</div>
+    <div style="margin-top: 25px;">
+        <br><b class="topics">Inconvenient Time</b><br><br>
+    </div>
             
         </div>
         <div style="margin-top: 20px; margin-left: 250px">

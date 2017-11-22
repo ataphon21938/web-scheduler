@@ -52,56 +52,53 @@
         <img src="images/FIBO_logo.jpg" width="55" height="62" style="margin-top: 10px; margin-left: 10px">
         <div style="font-size: 1.8em; margin-top: -50px; margin-left: 80px">
         <b>Classroom Schedule</b>
-        </div><br>
+        </div><br><br>
         </header>
-        <div style="margin-top: -30px; margin-left: 500px">
+        <div style="margin-top: -94px; margin-left:87.7%">
+        <a href="index.php" class="btn"><b>?</b></a>
+        <a href="index.php" class="btn"><b>Log out</b></a>
+    </div>
+    <div style="margin-top: 20px; margin-left:33.3%">
         <a href="admin1.php" class="btn1"><b>Home</b></a>
         <a href="admin2.php" class="btn1"><b>User Info</b></a>
         <a href="admin3.php" class="btn1"><b>Class Info</b></a>
-        <a href="admin4.php" class="btn1"><b>Class Management</b></a>
+        <a href="admin4.php" class="btn1"style=" color: #79a2ff"><b>Class Management</b></a>
         <a href="admin5.php" class="btn1"><b>Summary</b></a>
         <a href="admin6.php" class="btn1"><b>User status</b></a>
-        <a href="admin7.php" class="btn1" style=" color: #79a2ff"><b>Complete</b></a>
-        </div>
-        <div style="margin-top: -84px; margin-left: 1200px">
-            <a href="index.php" class="btn"><b>Log out</b></a>
-        </div>
-        <div style="margin-top: 50px;">
+        <a href="admin7.php" class="btn1"><b>Complete</b></a>
+    </div>
+        <div style="margin-top:25px;">
             <br><b class="topics">Class Management</b><br><br>
             <a href="admin4.php" class="btn2"><b>Computer room</b></a><br><br> <!--แก้ link-->
             <a href="admin4-2.php" class="btn2"><b>Studio room</b></a><br><br>    <!--แก้ link-->
             <a href="admin4-1.php" class="btn2"style="background-color:#79a2ff"><b>Classroom</b></a><br><br>    <!--แก้ link-->
         </div>
         <div style="margin-top: -150px; margin-left: 400px">
-          
-          <b>Classroom</b>
-            <br><br><br><br>
-          <b>Capacity </b>
-        </div>
         
-        <div style="margin-top:-95px; margin-left:500px">
-        <input class="inputroom" name="room_code" type="text" id="username"
-          class="tao51" style ="width:350px; height:23px; margin-left:25px" >
-        </div>
+                  <b style="font-family: 'Work Sans', sans-serif; font-size: 24px">Classroom  </b>
+                    <br><br><br>
+                  <b style="font-family: 'Work Sans', sans-serif; font-size: 24px">Capacity </b>
         
-        <div style="margin-top:85px; margin-left:450px">
-        <ul id="navbar" >
-            <li><a id="green"  href="#"style ="background: url(images/arrow.png); 
-                background-repeat: no-repeat; 
-                background-size: 25px;
-                background-position: right center;
-                background-color:#ffffff">Menu</a>
-                <ul class="item">
-                    <li id="demo1" onclick="myFunction1()"><a href="#">40</a></li>
-                    <li id="demo2" onclick="myFunction2()"><a href="#">80 </a></li>
-                    </li>
-                    
-                </ul>
-            </li>
-        </div>
-        <button name="save_data" class = "buttonsave">
-        <span class = "content"><b>save</b></span>
-        </button>
+                </div>
+        
+                <div style="margin-top:-95px; margin-left:530px">
+                <input class="whitetab" name="room_code" type="text" id="username"
+                
+                </div>
+        
+                <div style="margin-top:25px; margin-left:-40px">
+                <select name="size">
+                  <option value="MENU">Menu</option>
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                </select>
+        
+                </div>
+                <div style="margin-top:100px; margin-left:-600px">
+                <button name="save_data" class = "buttonsave">
+                <span class = "content"><b>save</b></span>
+                </button>
+                </div>
     </form>
   </body>
 </html>

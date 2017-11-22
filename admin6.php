@@ -39,24 +39,38 @@
         <img src="images/FIBO_logo.jpg" width="55" height="62" style="margin-top: 10px; margin-left: 10px">
         <div style="font-size: 1.8em; margin-top: -50px; margin-left: 80px">
         <b>Classroom Schedule</b>
-        </div><br>
+        </div><br><br>
         </header>
-        <div style="margin-top: -30px; margin-left: 500px">
+        <div style="margin-top: -94px; margin-left:87.7%">
+        <a href="index.php" class="btn"><b>?</b></a>
+        <a href="index.php" class="btn"><b>Log out</b></a>
+    </div>
+    <div style="margin-top: 20px; margin-left:33.3%">
         <a href="admin1.php" class="btn1"><b>Home</b></a>
         <a href="admin2.php" class="btn1"><b>User Info</b></a>
         <a href="admin3.php" class="btn1"><b>Class Info</b></a>
         <a href="admin4.php" class="btn1"><b>Class Management</b></a>
         <a href="admin5.php" class="btn1"><b>Summary</b></a>
-        <a href="admin6.php" class="btn1"><b>User status</b></a>
-        <a href="admin7.php" class="btn1" style=" color: #79a2ff"><b>Complete</b></a>
-        </div>
-        <div style="margin-top: -84px; margin-left: 1200px">
-            <a href="index.php" class="btn"><b>Log out</b></a>
-        </div>
-        <div style="margin-top: 50px;">
+        <a href="admin6.php" class="btn1" style=" color: #79a2ff"><b>User status</b></a>
+        <a href="admin7.php" class="btn1"><b>Complete</b></a>
+    </div>
+        <div style="margin-top:25px;">
             <br><b class="topics">User status</b><br><br>
         </div>
+        <form action="admin6.php" method="post"> 
+        
+        <div style="margin-top:-30px;margin-left:1050px" class="button4">
+                <span name="mind"class="content"><b>Draft</b></span>
+        </div>
+        </form>
         <?php
+        
+        if(isset($_POST['mind'])) {
+            $mystring = system("py Algorithm.py myargs",$retval);
+            echo "mind";
+            header('location:admin7.php');
+        }
+
         $allsubject = "SELECT DISTINCT subject_code AS Subjects FROM table_teacher_subject";
         $sql = "SELECT * FROM table_teacher_subject";
         $smyData = mysqli_query($con, $sql);
@@ -88,12 +102,6 @@
         }
             echo "<br>";
     ?>            
-        <div style="margin-top:-30px;margin-left:1100px">
-            <a href="admin7.php" class="btn"><b>Draft</b></a>
-        </div>
-        <div style="margin-top:-30px;margin-left:30px">
-            <button class="howto">?</button>     
-        </div>
 
       </body>
     </html>

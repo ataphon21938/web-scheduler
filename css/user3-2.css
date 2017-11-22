@@ -171,7 +171,7 @@ body {
 	border-radius: 5px;
 	font-size: 18px;
 }
-.button5:active .content{
+.button5:active.content{
 	bottom: 0;
 	box-shadow: 0 0px 0#06c;
 }
@@ -180,16 +180,66 @@ body {
 }
 .buttonsave{
 	display: block;
-	width: 60px;
-	height: 50px;
 	position: relative;
-	border-radius: 5px;
 }
 .buttonsave .content{
 	display: block;
 	position: absolute;
 	bottom: 6px;
-	width: 77px;
+	width:60px;
+	height: auto;
+	line-height: 34px;
+	background-color: #FF8C00;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	border-radius: 5px;
+	border:#FF8C00;
+}
+.buttonsave:active .content{
+	top:3px;
+	box-shadow: 0 0px 0#06c;
+}
+.buttonsave:hover .content{
+	background-color: #00e64d;
+	transition: .3s;
+}
+.buttonchoose{
+	display: block;
+	position: relative;
+}
+.buttonchoose .content{
+	display: block;
+	position: absolute;
+	bottom: 6px;
+	width:80px;
+	height: auto;
+	line-height: 34px;
+	background-color: #FF8C00;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	border-radius: 5px;
+	border:#FF8C00;
+}
+.buttonchoose:active .content{
+	top:3px;
+	box-shadow: 0 0px 0#06c;
+}
+.buttonchoose:hover .content{
+	background-color: #00e64d;
+	transition: .3s;
+}
+.buttoncomplete{
+	display: block;
+	position: relative;
+	border-radius: 5px;
+}
+.buttoncomplete .content{
+	display: block;
+	position: absolute;
+	bottom: 6px;
+	width: 135px;
 	height: auto;
 	line-height: 55px;
 	background-color: #FF8C00;
@@ -198,11 +248,11 @@ body {
 	text-transform: uppercase;
 	border-radius: 5px;
 }
-.buttonsave:active .content{
+.buttoncomplete:active .content{
 	top:3px;
 	box-shadow: 0 0px 0#06c;
 }
-.buttonsave:hover .content{
+.buttoncomplete:hover .content{
 	background-color: #79a2ff;
 	transition: .3s;
 }

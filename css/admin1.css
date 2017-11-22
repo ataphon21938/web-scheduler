@@ -4,14 +4,14 @@
 }
 .btn{
 	display: inline-block;
-	border: 0px solid #ff6c00;
-	padding: 10px 20px;
+	border:1.5px solid white;
+	padding: 10px 17px;
 	background-color: #ff6c00;
 	text-decoration: none;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1em;
 	color: #ffffff ;
-	border-radius: 7px;
+	border-radius:7px;
 	transition: 0.1s;
 }
 .btn:hover{
@@ -28,7 +28,7 @@
 	background-color: #ececec;
 	text-decoration: none;
 	font-family: 'Work Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: #ff6c00 ;
 	border-radius: 7px;
 	transition: 0.1s;
@@ -92,6 +92,7 @@
 	font-size:1em;
 	color:#ff6c00;
 	text-align: left;
+	border:1px solid #ff6c00;
     border-radius:6px;
     line-height: 42px;
 	font-family: 'Work Sans', sans-serif; 
@@ -105,7 +106,7 @@
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1em;
 	color: #ffffff ;
-	border-radius:50%;
+	border-radius:20px;
 	transition: 0.1s;
 }
 .howto:hover{
@@ -128,4 +129,38 @@
 .statuskru img{
 	margin-left: 420px;
 	margin-top: -90px
+}
+.button4{
+	display: block;
+	width:auto;
+	height: 50px;
+	position: relative;
+	
+	border-radius: 8px;
+}
+.button4 .content{
+	display: block;
+	position: absolute;
+	width: 220px;
+	height: 100%;
+	line-height: 55px;
+	background-color: #FF8C00;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	
+	border-radius: 5px;
+	font-size: 36px;
+	
+	
+}
+.button4:active .content{
+	
+	top:3px;
+	
+}
+.button4:hover .content{
+	
+	background-color: rgb(255, 167, 67);
+	transition: .3s;
 }

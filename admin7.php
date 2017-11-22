@@ -20,42 +20,58 @@
 
     <title>Classroom Schedule</title>
   </head>
+  <style>
+    body {
+    background-color: #ececec;
+    color: #ff6c00 ;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;}
+    header {
+       background: #ff6c00 none repeat-x 0 0;
+       color: #FFFFFF;
+       margin-top: 0px;
+       padding: 0 5px;
+       text-align: left;}
+  </style>
   <body>
     <header>
         <img src="images/FIBO_logo.jpg" width="55" height="62" style="margin-top: 10px; margin-left: 10px">
         <div style="font-size: 1.8em; margin-top: -50px; margin-left: 80px">
         <b>Classroom Schedule</b>
-        </div><br>
+        </div><br><br>
         </header>
-        <div style="margin-top: -30px; margin-left: 500px">
-        <a href="admin1.php" class="btn1"><b>Home</b></a>
-        <a href="admin2.php" class="btn1"><b>User Info</b></a>
-        <a href="admin3.php" class="btn1"><b>Class Info</b></a>
-        <a href="admin4.php" class="btn1"><b>Class Management</b></a>
-        <a href="admin5.php" class="btn1"><b>Summary</b></a>
-        <a href="admin6.php" class="btn1"><b>User status</b></a>
-        <a href="admin7.php" class="btn1" style=" color: #79a2ff"><b>Complete</b></a>
-        </div>
-        <div style="margin-top: -84px; margin-left: 1200px">
+        <div style="margin-top: -94px; margin-left:87.7%">
+            <a href="index.php" class="btn"><b>?</b></a>
             <a href="index.php" class="btn"><b>Log out</b></a>
         </div>
-        <div style=" margin-top:50px">
-        <br><b class="topics">Complete Schedule</b><br><br>
+        <div style="margin-top: 20px; margin-left:33.3%">
+            <a href="admin1.php" class="btn1"><b>Home</b></a>
+            <a href="admin2.php" class="btn1"><b>User Info</b></a>
+            <a href="admin3.php" class="btn1"><b>Class Info</b></a>
+            <a href="admin4.php" class="btn1"><b>Class Management</b></a>
+            <a href="admin5.php" class="btn1"><b>Summary</b></a>
+            <a href="admin6.php" class="btn1"><b>User status</b></a>
+            <a href="admin7.php" class="btn1"style=" color: #79a2ff"><b>Complete</b></a>
+        </div>
+        <div style="margin-top: 25px;">
+            <br><b class="topics">Complete Schedule</b>
+        </div><br><br>
         <ul id="navbar">
                 <li><a href="admin7.php"style ="
-                    background-color:#ff6d00;">ALL Schedule</a>
+                    background-color:#ff6d00;"><b>ALL Schedule</b></a>
                     
                 <li><a href="admin7-1.php" style ="background: url(images/arrow.png); 
                     background-repeat: no-repeat; 
                     background-size: 25px;
                     background-position: right center;
-                    background-color:#ff6d00">Years Schedule</a>
+                    background-color:#ff6d00"><b>Years Schedule</b></a>
                     <ul class="item">
                             <li><a href="#" style ="background: url(images/rightarrow.png); 
                                 background-repeat: no-repeat; 
                                 background-size: 15px;
                                 background-position: right center;
-                                background-color:#ff6d00">Bachelor </a>
+                                background-color:#ff6d00"><b>Bachelor</b> </a>
                                 <ul class="sub-item" style="margin-left:1px;margin-top:1px">
                                     <li><a href="admin7-b1.php">1</a></li>
                                     <li><a href="admin7-b2.php">2</a></li>
@@ -67,7 +83,7 @@
                                 background-repeat: no-repeat; 
                                 background-size: 15px;
                                 background-position: right center;
-                                background-color:#ff6d00">Master</a>
+                                background-color:#ff6d00"><b>Master</b></a>
                                 <ul class="sub-item" style="margin-left:1px;margin-top:1px">
                                     <li><a href="#">1</a></li>
                                     <li><a href="#">2</a></li>
@@ -78,7 +94,7 @@
                                 background-repeat: no-repeat; 
                                 background-size: 15px;
                                 background-position: right center;
-                                background-color:#ff6d00">phD</a>
+                                background-color:#ff6d00"><b>phD</b></a>
                                 <ul class="sub-item" style="margin-left:1px;margin-top:1px">
                                     <li><a href="#">1</a></li>
                                     <li><a href="#">2</a></li>
@@ -92,7 +108,7 @@
                     background-size: 25px;
                     background-position: right center;
                     background-color:#ff6d00;
-                    margin-top : -0.5px">Name list</a>
+                    margin-top : -0.5px"><b>Name list</b></a>
                     
                 </li>
             </ul>
